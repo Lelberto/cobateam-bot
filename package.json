@@ -1,0 +1,28 @@
+{
+  "name": "cobateam-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for the CobaTeam server",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "tsc -p tsconfig.json && node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lelberto/cobateam-bot.git"
+  },
+  "author": "Lelberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lelberto/cobateam-bot/issues"
+  },
+  "homepage": "https://github.com/Lelberto/cobateam-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.13.0",
+    "@types/ws": "^7.2.4"
+  }
+}

@@ -1,0 +1,16 @@
+# NodeJS
+node_modules/
+
+# TypeScript
+build/
+
+# Environment
+*.env
+
+# Logs
+logs/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/launch.json
+ 
