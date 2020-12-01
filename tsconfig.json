@@ -9,5 +9,12 @@
         "strict": true,
         "strictNullChecks": false,
         "removeComments": true
-    }
+    },
+    "ts-node": {
+        "files": true
+    },
+    "files": [
+        "types/modules.d.ts",
+        "types/nodejs.d.ts"
+    ]
 }
